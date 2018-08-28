@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Home
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/sitehomedatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/sitehomedatasets-get-openapi.md
+- name: Data.gov API - Put Site Home Datasets
+  x-api-slug: sitehomedatasets-put
+  description: Set the homepage datasets editorial selection
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/sitehomedatasets-put-openapi.md
+- name: Data.gov API - Get Site Home Reuses
+  x-api-slug: sitehomereuses-get
+  description: List homepage featured reuses
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/sitehomereuses-get-openapi.md
+- name: Data.gov API - Put Site Home Reuses
+  x-api-slug: sitehomereuses-put
+  description: Set the homepage reuses editorial selection
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/sitehomereuses-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://danske.bank.api.gallery.streamdata.io

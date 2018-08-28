@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
-x-collection-name: Facebook
+x-collection-name: Lykke
 x-complete: 0
 info:
-  title: Facebook Get User Home
-  description: The user's news feed
+  title: Lykke Get Home Version
   version: 1.0.0
-host: graph.facebook.com
+  description: Get home version.
 basePath: /
 schemes:
 - http
@@ -15,22 +14,18 @@ produces:
 consumes:
 - application/json
 paths:
-  /{user}/home:
+  /home/Version:
     get:
-      summary: Get User Home
-      description: The user's news feed
-      operationId: getUserHome
-      x-api-path-slug: userhome-get
-      parameters:
-      - in: path
-        name: user
-        description: Represents the ID of the user object
+      summary: Get Home Version
+      description: Get home version.
+      operationId: HomeVersionGet
+      x-api-path-slug: homeversion-get
       responses:
         200:
           description: OK
       tags:
-      - User
       - Home
+      - Version
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

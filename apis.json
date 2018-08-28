@@ -1,0 +1,375 @@
+{
+	"name": "Streadata.io API Gallery - Home",
+	"description": "This is a repository of home APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/home.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://home.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "webinos",
+			"x-api-slug": "webinos",
+			"description": "webinos is an EU-funded project and affiliate program aiming to define and deliver an Open Source Platform and software components for the Future Internet in the form of web runtime extensions, to enable web applications and services to be used and shared consistently and securely over a broad spectrum of converged and connected devices, including mobile, PC, home media (TV) and in-car units.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/webinos_logo.png",
+			"humanURL": "http://www.webinos.org",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/webinos/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tendril",
+			"x-api-slug": "tendril",
+			"description": "With more than a decade of expertise in energy and behavioral science, Tendril is applying its unique software platform to change the way energy products and services are marketed and consumed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/257-tendril.jpg",
+			"humanURL": "http://www.tendrilinc.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/tendril/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Philips hue",
+			"x-api-slug": "philips-hue",
+			"description": "Your personal wireless lighting that lets you easily control your light from your device and create the right ambience for your every moments. Meet hue - smart bulbs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1608-philips-hue.jpg",
+			"humanURL": "http://developers.meethue.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/philips-hue/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ecobee",
+			"x-api-slug": "ecobee",
+			"description": "Did you know?     ??? Thermostats represent 50-70% of your home energy use.  ??? The average ecobee customer saves 26% on their energy bill each year.  ??? 96% of ecobee customers would recommend ecobee to a friend.  ??? Over 80% of ecobee customers run an ene...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1835-ecobee.jpg",
+			"humanURL": "http://www.ecobee.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/ecobee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nest",
+			"x-api-slug": "nest",
+			"description": "Discover connected home devices from Nest  thermostats, indoor and outdoor security cameras, smoke and carbon monoxide alarm, security system, video doorbell and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1858-nest.jpg",
+			"humanURL": "http://nest.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/nest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ISTABAI",
+			"x-api-slug": "istabai",
+			"description": "Istabai is an application that allows users to manage their home heating systems from anywhere with an internet connection. Users can set the service up simply by changing their radiator head and plugging in Istabais internet cable. The Istabai mobile application and web solution will relay the current temperature to the user and allow them to regulate it as they like. The system can also be accessed and controlled programmatically via REST API. The Istabai website is provided in English, Russian, and Latvian.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1859-istabai.jpg",
+			"humanURL": "http://istabai.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/istabai/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lelylan",
+			"x-api-slug": "lelylan",
+			"description": "Lelylan is a project called to life by the need to solve technological limitations that home automation (aka domotics) faces today. Our houses are furnished by numerous devices like appliances, lighting systems, alarms, irrigation systems, smoke and gas detectors, heating, cooling, audio, video systems and much more. Unluckily, those devices use different standards and they can not communicate with each other. The consequences are higher prices, technical limitations, few services and a lot of confusion for the end user.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1860-lelylan.jpg",
+			"humanURL": "http://lelylan.com/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/lelylan/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Belkin",
+			"x-api-slug": "belkin",
+			"description": "Belkin makes people-inspired products and solutions for iPhone, iWatch, IPad, Kindle, Samsung & Networking devices including a wide range of USB-C, Type C, USB, Lightning, Micro-USB, and other cables.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1861-belkin.jpg",
+			"humanURL": "http://www.belkin.com/us/wemo-switch",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/belkin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Notion",
+			"x-api-slug": "notion",
+			"description": "Notion provides wireless home monitoring easily & effectively, regardless of location. Whether you rent or own, Notion is the only monitoring system youll need.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11321-notion.jpg",
+			"humanURL": "http://notion.is/",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/notion/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bosch Global",
+			"x-api-slug": "bosch-global",
+			"description": "Invented for life: we want our products to spark enthusiasm, improve quality of life, and help conserve natural resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28143-developer-bosch-com.jpg",
+			"humanURL": "https://developer.bosch.com",
+			"baseURL": "https:///",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/bosch-global/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netatmo",
+			"x-api-slug": "netatmo",
+			"description": "We develop groundbreaking, intuitive and beautifully-designed connected consumer electronics. Truly smart, our innovative products provide a seamless experience that helps users create a safer, healthier and more comfortable home. We carefully design the mechanics, electronics and embedded software of all our products to the highest standards. Our mobile and web applications are designed to be simple to operate, yet deliver a rich user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png",
+			"humanURL": "http://www.netatmo.com",
+			"baseURL": "https://api.netatmo.net//api",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/netatmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kentico Cloud",
+			"x-api-slug": "kentico-cloud",
+			"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg",
+			"humanURL": "https://kenticocloud.com/",
+			"baseURL": "https://deliver.kenticocloud.com//",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/kentico-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Home",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Home",
+	"include": [
+		{
+			"name": "webinos",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/webinos/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Tendril",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/tendril/apis.yaml"
+		},
+		{
+			"name": "Philips hue",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/philips-hue/apis.yaml"
+		},
+		{
+			"name": "ecobee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/ecobee/apis.yaml"
+		},
+		{
+			"name": "Nest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/nest/apis.yaml"
+		},
+		{
+			"name": "ISTABAI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/istabai/apis.yaml"
+		},
+		{
+			"name": "Lelylan",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/lelylan/apis.yaml"
+		},
+		{
+			"name": "Belkin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/belkin/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Notion",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/notion/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Bosch Global",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/bosch-global/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Netatmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/netatmo/apis.yaml"
+		},
+		{
+			"name": "Kentico Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/kentico-cloud/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/home/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

@@ -1,12 +1,12 @@
 ---
 swagger: "2.0"
-x-collection-name: Facebook
+x-collection-name: GIG & CROWD
 x-complete: 0
 info:
-  title: Facebook Get User Home
-  description: The user's news feed
+  title: GIGANDCROWD Get Art Rer Home
   version: 1.0.0
-host: graph.facebook.com
+  description: Get art rer home.
+host: gigandcrowd.com
 basePath: /
 schemes:
 - http
@@ -15,21 +15,21 @@ produces:
 consumes:
 - application/json
 paths:
-  /{user}/home:
+  /api/v1/art/rider/home:
     get:
-      summary: Get User Home
-      description: The user's news feed
-      operationId: getUserHome
-      x-api-path-slug: userhome-get
+      summary: Get Art Rer Home
+      description: Get art rer home.
+      operationId: getApiV1ArtRerHome
+      x-api-path-slug: apiv1artriderhome-get
       parameters:
-      - in: path
-        name: user
-        description: Represents the ID of the user object
+      - in: header
+        name: Authorization
       responses:
         200:
           description: OK
       tags:
-      - User
+      - Art
+      - Rer
       - Home
 x-streamrank:
   polling_total_time_average: 0

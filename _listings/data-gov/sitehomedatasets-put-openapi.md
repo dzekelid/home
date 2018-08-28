@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Data.Gov
 x-complete: 0
 info:
-  title: Data.gov API Get Site Home Datasets
-  description: List homepage datasets
+  title: Data.gov API Put Site Home Datasets
+  description: Set the homepage datasets editorial selection
   version: "3"
 host: catalog.data.gov
 basePath: /api/3/
@@ -21,6 +21,24 @@ paths:
       description: List homepage datasets
       operationId: getSiteHomeDatasets
       x-api-path-slug: sitehomedatasets-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Site
+      - Home
+      - Datasets
+    put:
+      summary: Put Site Home Datasets
+      description: Set the homepage datasets editorial selection
+      operationId: putSiteHomeDatasets
+      x-api-path-slug: sitehomedatasets-put
+      parameters:
+      - in: body
+        name: payload
+        description: Dataset IDs to put in homepage
+        schema:
+          $ref: '#/definitions/holder'
       responses:
         200:
           description: OK
